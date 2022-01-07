@@ -20,7 +20,7 @@ def lights_off(channel):
 while True: 
     print (time.strftime("%H:%M"))
     try:
-        if hour > 5 and hour < 19:
+        if hour > 6 and hour < 19:
             print('lights on')
             lights_on(channel)
         else:
